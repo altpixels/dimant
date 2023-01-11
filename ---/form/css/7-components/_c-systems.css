@@ -1,0 +1,181 @@
+.c-systems__wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 200px auto 0px;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-systems__wrapper {
+        margin: auto;
+    }
+
+}
+
+.c-systems__wrapper--short-margin {
+    margin-top: auto;
+}
+
+.c-systems__wrapper-title {
+    width: 90%;
+    margin: auto;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-systems__wrapper-title {
+        margin-top: 80px;
+    }
+
+}
+
+.c-systems__wrapper-title--short-margin-top {
+    margin-top: 60px;
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .c-systems__wrapper-title {
+        margin-top: 40px;
+    }
+
+}
+
+.c-systems__wrapper-description {
+    text-align: left;
+    margin-top: 20px;
+    width: 90%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-systems__wrapper-description {
+        text-align: center;
+        width: 66%;
+    }
+
+}
+
+.c-systems__items-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 30px auto auto;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-systems__items-wrapper {
+        align-items: baseline;
+        flex-flow: row nowrap;
+    }
+
+}
+
+.c-systems__item {
+    margin: auto auto 25px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-systems__item {
+        margin: 0 auto 25px;
+        width: 23.6%;
+    }
+
+}
+
+.c-systems__header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #E2231A;
+    height: 50px;
+    border-radius: 10px;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-systems__header {
+        height: 100px;
+        justify-content: space-around;
+        text-align: left;
+    }
+
+}
+
+.c-systems__icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    width: 20%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-systems__icon-wrapper {
+        width: 25%;
+    }
+}
+
+.c-systems__name-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 6%;
+    width: 77.5%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-systems__name-wrapper {
+        width: 65%;
+    }
+
+}
+
+.c-systems__name {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* .c-systems__name::after {
+    content: url(../../assets/cheuron-blanco.svg);
+    line-height: 0;
+    padding-left: 1.5%;
+} */
+
+.c-systems__text {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.c-systems__link-wrapper {
+    margin-top: 10px;
+}
+
+.c-systems__link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.c-systems__link::after {
+    content: url(../../assets/cheuron-rojo.svg);
+    line-height: 0;
+    padding-left: 1%;
+}

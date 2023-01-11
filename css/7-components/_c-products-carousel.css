@@ -1,0 +1,126 @@
+.c-products-carousel__wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 60px;
+    width: 90%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-products-carousel__wrapper {
+        width: auto;
+    }
+
+}
+
+.c-products-carousel__title-wrapper {
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-products-carousel__title-wrapper {
+        width: auto;
+    }
+
+}
+
+.c-products-carousel__items-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    width: 100%;
+}
+
+.c-products-carousel__item {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    text-align: center;
+    width: 45%;
+    margin: 15px auto;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-products-carousel__item {
+        width: 15%;
+        margin: 2.5%;
+    }
+
+}
+
+.c-products-carousel__item--hiden {
+    display: none;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-products-carousel__item--hiden {
+        display: flex;
+    }
+
+}
+
+.c-products-carousel__item-image-wrapper {
+    margin-bottom: 10px;
+    flex-grow: 1;
+}
+
+.c-products-carousel__item-name-wrapper {
+    text-align: left;
+    margin-bottom: 5px;
+    height: 6.6rem;
+    flex-grow: 1;
+}
+
+.c-products-carousel__item-button-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    width: 100%;
+    flex-grow: 1;
+    /* font-size: .9rem; */
+}
+
+.c-products-carousel__item-button {
+    color: #5C666F;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.c-products-carousel__image-item-button {
+    width: 12.5%;
+    margin-right: 2.5%;
+}
+
+.c-products-carousel__text-item-button {
+    font-size: 1.6rem;
+    width: 65%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-products-carousel__text-item-button {
+        font-size: 1.75rem;
+        width: 65%;
+    }
+
+}
+
+.c-products-carousel__item-button:hover {
+    color: #C3C5C8;
+}
+
+.c-products-carousel__meli-button-wrapper {
+    width: 100%;
+    flex-grow: 1;
+}

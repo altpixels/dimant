@@ -1,0 +1,74 @@
+.c-hero-home {
+    background-color: #5C666F;
+    background: url(../../imagenes/generales/hero-bg-dimant-movil-01.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+    position: relative;
+    height: calc(100vh);
+    animation: hero-home-mobile 25s infinite linear;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-hero-home {
+        background: url(../../imagenes/generales/hero-bg-dimant-desktop-01.jpg);
+        height: calc(100vh);
+        animation: hero-home-desktop 25s infinite linear;
+    }
+
+}
+
+.c-hero-home__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 88px);
+    background-color: rgb(0, 0, 0, .5);
+}
+
+@media only screen and (min-width: 720px) {
+    .c-hero-home__wrapper {
+        height: calc(100vh - 80px);
+    }
+}
+
+.c-hero-home__text {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-hero-home__text {
+        flex-flow: row nowrap;
+    }
+}
+
+.c-hero-home__wrapper-title {
+    width: 90%;
+    margin: 10px auto;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-hero-home__wrapper-title {
+        width: 41%;
+    }
+}
+
+.c-hero-home__wrapper-content {
+    width: 90%;
+    margin: 10px auto;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-hero-home__wrapper-content {
+        width: 49%;
+    }
+}
+

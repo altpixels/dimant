@@ -1,0 +1,67 @@
+.c-installation-steps__title-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 90%;
+}
+
+.c-installation-steps__items-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-installation-steps__items-wrapper {
+        flex-direction: row;
+    }
+
+}
+
+.c-installation-steps__item-wrapper {
+    position: relative;
+    border-radius: 15px;
+    background-color: #C3C5C8;
+    box-shadow: 1px 2px 4px #5C666F;
+    margin-bottom: 35px;
+    padding: 10px;
+    height: 115px;
+    width: 80%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-installation-steps__item-wrapper {
+        width: 23.7%;
+    }
+
+}
+
+.c-installation-steps__number-wrapper {
+    position: absolute;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E2231A;
+    border-radius: 50%;
+    border: 2px solid #232121;
+}
+
+.c-instalation-steps__number {
+    vertical-align: middle;    
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: bolder;
+    height: 40px;
+}
+
+.c-installation-steps__item-title {
+    text-align: center;
+    margin-bottom: 5px;
+}

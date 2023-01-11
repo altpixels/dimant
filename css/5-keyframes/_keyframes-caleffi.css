@@ -1,0 +1,86 @@
+@keyframes hero-caleffi-desktop {
+    0%{
+		background-image: url('../../imagenes/caleffi/calffi-hero-bgd01.jpg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	33%{
+		background-image: url('../../imagenes/caleffi/calffi-hero-bgd01.jpg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+
+	34%{
+		background-image: url('../../imagenes/caleffi/calffi-hero-bgd02.jpg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	66%{
+		background-image: url('../../imagenes/caleffi/calffi-hero-bgd02.jpg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+
+	67%{
+		background-image: url('../../imagenes/caleffi/calffi-hero-bgd03.jpg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	100%{
+		background-image: url('../../imagenes/caleffi/calffi-hero-bgd03.jpg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+
+
+@keyframes hero-caleffi-mobile {
+    0%{
+		background-image: url('../../imagenes/caleffi/calffi-hero-bgm01.jpg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	33%{
+		background-image: url('../../imagenes/caleffi/calffi-hero-bgm01.jpg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+
+	34%{
+		background-image: url('../../imagenes/caleffi/calffi-hero-bgm02.jpg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	66%{
+		background-image: url('../../imagenes/caleffi/calffi-hero-bgm02.jpg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+
+	67%{
+		background-image: url('../../imagenes/caleffi/calffi-hero-bgm03.jpg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	100%{
+		background-image: url('../../imagenes/caleffi/calffi-hero-bgm03.jpg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}

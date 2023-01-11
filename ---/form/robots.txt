@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /2022/
+
+User-agent: *
+Allow: /

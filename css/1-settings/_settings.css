@@ -1,0 +1,67 @@
+.color-primary-00 {
+    color: #E2231A;
+}
+
+.color-primary-10 {
+    color: #9F3122;
+}
+
+.color-primary-20 {
+    color: #682F24;
+}
+
+.color-secundario-00 {
+    color: #C3C5C8;
+}
+
+.color-secundario-10 {
+    color: #5C666F;
+}
+
+.color-secundario-20 {
+    color: #232121;
+}
+
+.color-blanco {
+    color: #FFFFFF;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+/* VILAYD */
+:root {
+    --color-vilayd-primary-00: #FFA300;
+    --color-vilayd-primary-10: #E69300;
+    --color-vilayd-primary-20: #CC8200;
+    --color-vilayd-primary-40: #B37200;
+    --color-vilayd-primary-60: #996200;
+    --color-vilayd-primary-80: #805200;
+    --color-vilayd-secondary-00: #707170;
+    --color-vilayd-secondary-10: #656665;
+    --color-vilayd-secondary-20: #5A5A5A;
+    --color-vilayd-secondary-40: #4E4F4E;
+    --color-vilayd-secondary-60: #4E4F4E;
+    --color-vilayd-secondary-80: #383938;
+    --color-vilayd-neutral-00: #FFFFFF;
+    --color-vilayd-neutral-05: #D9D9D9;
+    --color-vilayd-neutral-10: #C5C6C5;
+    --color-vilayd-neutral-20: #B2B3B2;
+    --color-vilayd-neutral-40: #949594;
+    --color-vilayd-neutral-60: #777777;
+    --color-vilayd-neutral-80: #595A59;
+    --color-vilayd-bg-primary: #D9D9D9;
+    --color-vilayd-bg-secundary: #4E4F4E;
+    --color-vilayd-bg-helper: #FAFAFA;    
+    --color-vilayd-bg-meli: #3483FA;
+    --color-vilayd-txt-light: #949594;
+    --color-vilayd-txt-medium: #777777;
+    --color-vilayd-txt-dark: #595A59;
+    --color-vilayd-txt-heading: #FFA300;
+    --color-vilayd-txt-link: #CC8200;
+    --font-family-vilayd: 'Roboto', sans-serif;
+    --font-vilayd-regular: 300;
+    --font-vilayd-medium: 400;
+    --font-vilayd-semi: 500;
+    --font-vilayd-bold: 700;
+
+}

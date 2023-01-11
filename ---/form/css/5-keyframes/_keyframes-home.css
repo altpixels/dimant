@@ -1,0 +1,80 @@
+@keyframes hero-home-desktop {
+    0%{
+		background-image: url('../../imagenes/generales/hero-bg-dimant-desktop-01.jpg');
+	}
+	20%{
+		background-image: url('../../imagenes/generales/hero-bg-dimant-desktop-01.jpg');
+	}
+
+
+	21%{
+		background-image: url('../../imagenes/generales/hero-bg-dimant-desktop-02.jpg');
+	}
+	40%{
+		background-image: url('../../imagenes/generales/hero-bg-dimant-desktop-02.jpg');
+	}
+
+
+	41%{
+		background-image: url('../../imagenes/generales/hero-bg-dimant-desktop-03.jpg');
+	}
+	60%{
+		background-image: url('../../imagenes/generales/hero-bg-dimant-desktop-03.jpg');
+	}
+	
+
+	61%{
+		background-image: url('../../imagenes/generales/hero-bg-dimant-desktop-04.jpg');
+	}
+	80%{
+		background-image: url('../../imagenes/generales/hero-bg-dimant-desktop-04.jpg');
+	}
+
+    81%{
+		background-image: url('../../imagenes/generales/hero-bg-dimant-desktop-05.jpg');
+	}
+	100%{
+		background-image: url('../../imagenes/generales/hero-bg-dimant-desktop-05.jpg');
+	}
+}
+
+
+@keyframes hero-home-mobile {
+    0%{
+		background-image: url('../../imagenes/generales/hero-bg-dimant-movil-01.jpg');
+	}
+	20%{
+		background-image: url('../../imagenes/generales/hero-bg-dimant-movil-01.jpg');
+	}
+
+
+	21%{
+		background-image: url('../../imagenes/generales/hero-bg-dimant-movil-02.jpg');
+	}
+	40%{
+		background-image: url('../../imagenes/generales/hero-bg-dimant-movil-02.jpg');
+	}
+
+
+	41%{
+		background-image: url('../../imagenes/generales/hero-bg-dimant-movil-03.jpg');
+	}
+	60%{
+		background-image: url('../../imagenes/generales/hero-bg-dimant-movil-03.jpg');
+	}
+	
+
+	61%{
+		background-image: url('../../imagenes/generales/hero-bg-dimant-movil-04.jpg');
+	}
+	80%{
+		background-image: url('../../imagenes/generales/hero-bg-dimant-movil-04.jpg');
+	}
+
+    81%{
+		background-image: url('../../imagenes/generales/hero-bg-dimant-movil-05.jpg');
+	}
+	100%{
+		background-image: url('../../imagenes/generales/hero-bg-dimant-movil-05.jpg');
+	}
+}

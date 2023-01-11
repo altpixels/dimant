@@ -1,0 +1,80 @@
+@keyframes hero-sistemas-desktop {
+    0%{
+		background-image: url('../../imagenes/sistemas-calefaccion/suelo-radiante-calefaccion-d.jpg');
+	}
+	20%{
+		background-image: url('../../imagenes/sistemas-calefaccion/suelo-radiante-calefaccion-d.jpg');
+	}
+
+
+	21%{
+		background-image: url('../../imagenes/sistemas-calefaccion/radiadores-aluminio-calefaccion-d.jpg');
+	}
+	40%{
+		background-image: url('../../imagenes/sistemas-calefaccion/radiadores-aluminio-calefaccion-d.jpg');
+	}
+
+
+	41%{
+		background-image: url('../../imagenes/sistemas-calefaccion/radiadores-tipo-toallero-calefaccion-d.jpg');
+	}
+	60%{
+		background-image: url('../../imagenes/sistemas-calefaccion/radiadores-tipo-toallero-calefaccion-d.jpg');
+	}
+	
+
+	61%{
+		background-image: url('../../imagenes/sistemas-calefaccion/zoclo-calefaccion-d.jpg');
+	}
+	80%{
+		background-image: url('../../imagenes/sistemas-calefaccion/zoclo-calefaccion-d.jpg');
+	}
+
+    81%{
+		background-image: url('../../imagenes/sistemas-calefaccion/caldera-gas-mural-calefaccion-d.jpg');
+	}
+	100%{
+		background-image: url('../../imagenes/sistemas-calefaccion/caldera-gas-mural-calefaccion-d.jpg');
+	}
+}
+
+
+@keyframes hero-sistemas-mobile {
+    0%{
+		background-image: url('../../imagenes/sistemas-calefaccion/suelo-radiante-calefaccion-m.jpg');
+	}
+	20%{
+		background-image: url('../../imagenes/sistemas-calefaccion/suelo-radiante-calefaccion-m.jpg');
+	}
+
+
+	21%{
+		background-image: url('../../imagenes/sistemas-calefaccion/radiadores-aluminio-calefaccion-m.jpg');
+	}
+	40%{
+		background-image: url('../../imagenes/sistemas-calefaccion/radiadores-aluminio-calefaccion-m.jpg');
+	}
+
+
+	41%{
+		background-image: url('../../imagenes/sistemas-calefaccion/radiadores-tipo-toallero-calefaccion-m.jpg');
+	}
+	60%{
+		background-image: url('../../imagenes/sistemas-calefaccion/radiadores-tipo-toallero-calefaccion-m.jpg');
+	}
+	
+
+	61%{
+		background-image: url('../../imagenes/sistemas-calefaccion/zoclo-calefaccion-m.jpg');
+	}
+	80%{
+		background-image: url('../../imagenes/sistemas-calefaccion/zoclo-calefaccion-m.jpg');
+	}
+
+    81%{
+		background-image: url('../../imagenes/sistemas-calefaccion/caldera-gas-mural-calefaccion-m.jpg');
+	}
+	100%{
+		background-image: url('../../imagenes/sistemas-calefaccion/caldera-gas-mural-calefaccion-m.jpg');
+	}
+}

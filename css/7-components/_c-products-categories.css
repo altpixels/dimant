@@ -1,0 +1,104 @@
+.c-products-categories__wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 40px auto 60px;
+}
+
+.c-products-categories__title-wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.c-products-categories__category-name {
+    text-transform: uppercase;
+}
+
+.c-products-categories__desccription-wrapper {
+    text-align: left;
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-products-categories__desccription-wrapper {
+        text-align: center;
+    }
+
+}
+
+.c-products-categories__grid-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px auto auto;
+    width: 90%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-products-categories__grid-wrapper {
+        flex-direction: row;
+        margin-top: 40px;
+        width: auto;
+    }
+    
+}
+
+.c-products-categories__category-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-products-categories__category-wrapper {
+        margin: 10px 1.6%;
+        padding: 2em;
+        width: 30%;
+    }
+
+    /* .c-products-categories__category-wrapper:hover {
+        border-radius: 20px;
+        background-color: #C3C5C8;
+        box-shadow: 1px 1px 2px #C3C5C8;
+        transition: ease 0.4s;
+    } */
+    
+}
+
+.c-products-categories__category-image-wrapper {
+    width: 31.2%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-products-categories__category-image-wrapper {
+        width: 27.5%;
+    }
+    
+}
+
+.c-products-categories__category-info-wrapper {
+    text-align: left;
+    width: 66.25%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-products-categories__category-info-wrapper {
+        width: 69%;
+    }
+    
+}
+
+.c-products-categories__category-name-wrapper {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,31 @@
+.o-under-hero__wrapper {
+    margin: 250px auto 0px;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .o-under-hero__wrapper {
+        margin: auto;
+    }
+
+}
+
+.o-under-hero__title {
+    margin: 220px auto 0px;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .o-under-hero__title {
+        margin: auto;
+    }
+
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .o-under-hero__title {
+        margin-top: 40px;
+    }
+
+}

@@ -1,0 +1,209 @@
+.c-features__wrapper {
+    margin: 20px auto 40px;
+}
+
+.c-features__title {
+    text-align: center;
+}
+
+.c-features__items-wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    gap: 15px;
+}
+
+.c-features__items-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.c-features__item-wrapper {    
+    width: 100%;
+    min-width: 260px;
+    max-width: 300px;
+}
+
+.c-features__item-title-wrapper {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 123px;
+    width: 100%;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px #5C666F;
+}
+
+.c-features__item-title-wrapper--confortable {
+    background-image: url(../../imagenes/sistemas-calefaccion/suelo-radiante-confortable-feature_bg-s.jpg);
+}
+
+@media only screen and (min-width: 720px) {
+    .c-features__item-title-wrapper--confortable {
+        background-image: url(../../imagenes/sistemas-calefaccion/suelo-radiante-confortable-feature_bg-m.jpg);
+    }
+}
+
+.c-features__item-title-wrapper--saludable {
+    background-image: url(../../imagenes/sistemas-calefaccion/suelo-radiante-saludable-feature_bg-s.jpg);
+}
+
+@media only screen and (min-width: 720px) {
+    .c-features__item-title-wrapper--saludable {
+        background-image: url(../../imagenes/sistemas-calefaccion/suelo-radiante-saludable-feature_bg-m.jpg);
+    }
+}
+
+.c-features__item-title-wrapper--eficiente {
+    background-image: url(../../imagenes/sistemas-calefaccion/suelo-radiante-eficiente-feature_bg-s.jpg);
+}
+
+@media only screen and (min-width: 720px) {
+    .c-features__item-title-wrapper--eficiente {
+        background-image: url(../../imagenes/sistemas-calefaccion/suelo-radiante-eficiente-feature_bg-m.jpg);
+    }
+}
+
+.c-features__item-title-wrapper--estetico {
+    background-image: url(../../imagenes/sistemas-calefaccion/suelo-radiante-estetico-feature_bg-s.jpg);
+}
+
+@media only screen and (min-width: 720px) {
+    .c-features__item-title-wrapper--estetico {
+        background-image: url(../../imagenes/sistemas-calefaccion/suelo-radiante-estetico-feature_bg-m.jpg);
+    }
+}
+
+.c-features__item-title-wrapper--confortable-radiadores {
+    background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-radiadores-confortable-feature_bg-s.jpg);
+}
+
+@media only screen and (min-width: 720px) {
+    .c-features__item-title-wrapper--confortable-radiadores {
+        background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-radiadores-confortable-feature_bg-m.jpg);
+    }
+}
+
+.c-features__item-title-wrapper--practicos-radiadores {
+    background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-radiadores-practicos-feature_bg-s.jpg);
+}
+
+@media only screen and (min-width: 720px) {
+    .c-features__item-title-wrapper--practicos-radiadores {
+        background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-radiadores-practicos-feature_bg-m.jpg);
+    }
+}
+
+.c-features__item-title-wrapper--seguros-radiadores {
+    background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-radiadores-seguros-feature_bg-s.jpg);
+}
+
+@media only screen and (min-width: 720px) {
+    .c-features__item-title-wrapper--seguros-radiadores {
+        background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-radiadores-seguros-feature_bg-m.jpg);
+    }
+}
+
+.c-features__item-title-wrapper--esteticos-radiadores {
+    background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-radiadores-esteticos-feature_bg-s.jpg);
+}
+
+@media only screen and (min-width: 720px) {
+    .c-features__item-title-wrapper--esteticos-radiadores {
+        background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-radiadores-esteticos-feature_bg-m.jpg);
+    }
+}
+
+.c-features__item-title-wrapper--versatiles-radiadores {
+    background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-radiadores-versatiles-feature_bg-s.jpg);
+}
+
+@media only screen and (min-width: 720px) {
+    .c-features__item-title-wrapper--versatiles-radiadores {
+        background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-radiadores-versatiles-feature_bg-m.jpg);
+    }
+}
+
+.c-features__item-title-wrapper--confortable-toalleros {
+    background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-toalleros-confortable-feature_bg-s.jpg);
+}
+
+@media only screen and (min-width: 720px) {
+    .c-features__item-title-wrapper--confortable-toalleros {
+        background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-toalleros-confortable-feature_bg-m.jpg);
+    }
+}
+
+.c-features__item-title-wrapper--versatiles-toalleros {
+    background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-toalleros-versatiles-feature_bg-s.jpg);
+}
+
+@media only screen and (min-width: 720px) {
+    .c-features__item-title-wrapper--versatiles-toalleros {
+        background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-toalleros-versatiles-feature_bg-m.jpg);
+    }
+}
+
+.c-features__item-title-wrapper--practicos-toalleros {
+    background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-toalleros-practicos-feature_bg-s.jpg);
+}
+
+@media only screen and (min-width: 720px) {
+    .c-features__item-title-wrapper--practicos-toalleros {
+        background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-toalleros-practicos-feature_bg-m.jpg);
+    }
+}
+
+.c-features__item-title-wrapper--esteticos-toalleros {
+    background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-toalleros-esteticos-feature_bg-s.jpg);
+}
+
+@media only screen and (min-width: 720px) {
+    .c-features__item-title-wrapper--esteticos-toalleros {
+        background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-toalleros-esteticos-feature_bg-m.jpg);
+    }
+}
+
+.c-features__item-title-wrapper--confortable-zoclo {
+    background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-zoclos-confortable-feature_bg-s.jpg);
+}
+
+@media only screen and (min-width: 720px) {
+    .c-features__item-title-wrapper--confortable-zoclo {
+        background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-zoclos-confortable-feature_bg-m.jpg);
+    }
+}
+
+.c-features__item-title-wrapper--practico-zoclo {
+    background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-zoclos-practico-feature_bg-s.jpg);
+}
+
+@media only screen and (min-width: 720px) {
+    .c-features__item-title-wrapper--practico-zoclo {
+        background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-zoclos-practico-feature_bg-m.jpg);
+    }
+}
+
+.c-features__item-title-wrapper--estetico-zoclo {
+    background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-zoclos-estetico-feature_bg-s.jpg);
+}
+
+@media only screen and (min-width: 720px) {
+    .c-features__item-title-wrapper--estetico-zoclo {
+        background-image: url(../../imagenes/sistemas-calefaccion/calefaccion-zoclos-estetico-feature_bg-m.jpg);
+    }
+}
+
+
+.c-features__item-title {
+    text-transform: uppercase;
+}

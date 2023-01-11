@@ -1,0 +1,71 @@
+/* SETTINGS */
+@import "1-settings/_settings.css";
+
+/* TOOLS */
+@import "2-tools/_functions.css";
+@import "2-tools/_mixxings.css";
+
+/* GENERIC */
+@import "3-generic/_generic.css";
+
+/* TAGS */
+@import "4-tags/_tags.css";
+
+/* KEYFRAMES */
+@import "5-keyframes/_keyframes-home.css";
+@import "5-keyframes/_keyframes-sistemas.css";
+@import "5-keyframes/_keyframes-caleffi.css";
+
+/* OBJECTS */
+@import "6-objects/_o-bg-color.css";
+@import "6-objects/_o-main.css";
+@import "6-objects/_o-container.css";
+@import "6-objects/_o-fonts.css";
+@import "6-objects/_o-under-hero.css";
+@import "6-objects/_o-width-mobile.css";
+/* Vilayd */
+@import "6-objects/o-body-v.css";
+
+/* COMPONENTS */
+@import "7-components/_c-contac.css";
+@import "7-components/_c-header.css";
+@import "7-components/_c-hero-home.css";
+@import "7-components/_c-why-home.css";
+@import "7-components/_c-caleffi-home.css";
+@import "7-components/_c-products-home.css";
+@import "7-components/_c-products-carousel.css";
+@import "7-components/_c-meli-button.css";
+@import "7-components/_c-instalations.css";
+@import "7-components/_c-testimonial.css";
+@import "7-components/_c-brands.css";
+@import "7-components/_c-footer.css";
+@import "7-components/_c-main-button.css";
+@import "7-components/_c-pleca.css";
+@import "7-components/_c-hero-sections.css";
+@import "7-components/_c-systems.css";
+@import "7-components/_c-why-sections.css";
+@import "7-components/_c-projects.css";
+@import "7-components/_c-form.css";
+@import "7-components/_c-paragraphs.css";
+@import "7-components/_c-infobox.css";
+@import "7-components/_c-calleffi-top.css";
+@import "7-components/_c-products-categories.css";
+@import "7-components/_c-installation-steps.css";
+@import "7-components/_c-features.css";
+@import "7-components/_c-product-info.css";
+@import "7-components/_c-product-resources.css";
+@import "7-components/_c-gallery.css";
+/* Vilayd */
+@import "7-components/c-contact-v.css";
+@import "7-components/c-header-v.css";
+@import "7-components/c-hero-v.css";
+@import "7-components/c-about-v.css";
+@import "7-components/c-qualities-v.css";
+@import "7-components/c-footer-v.css";
+@import "7-components/c-about-model-v.css";
+@import "7-components/c-instalation-v.css";
+
+
+/* UTILITIES */
+@import "8-utilities/_utilities.css";
+

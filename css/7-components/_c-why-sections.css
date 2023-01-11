@@ -1,0 +1,129 @@
+.c-why-sections--caleffi {
+    background-color: #00763D;
+}
+
+.c-why-sections__wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.c-why-sections__wrapper-title {
+    margin-top: 40px;
+}
+
+/* @media only screen and (min-width: 720px) {
+
+    .c-why-sections__wrapper-title {
+        width: 90%;
+    }
+
+} */
+
+.c-why-sections__wrapper-text {
+    text-align: left;
+    margin-top: 20px;
+    width: 90%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-why-sections__wrapper-text {
+        text-align: center;
+        width: 66%;
+    }
+
+}
+
+.c-why-sections__wrapper-items {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-why-sections__wrapper-items {
+        width: 100%;
+        flex-flow: row nowrap;
+    }
+
+}
+
+.c-why-sections__wrapper-item {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+    width: 45%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-why-sections__wrapper-item {
+        width: 16%;
+    }
+    
+}
+
+.c-why-sections__text-item {
+    height: 100px;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-why-sections__text-item {
+        height: 100px;
+    }
+    
+}
+
+.c-why-sections__title {
+    margin: 20px auto 5px;
+}
+
+.c-why__image-item {
+    margin: auto;
+    width: 75%;
+}
+
+.c-why-sections__wrapper-item--hidden {
+    display: none;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-why-sections__wrapper-item--hidden {
+        display: flex;
+    }
+
+}
+
+.c-why-sections__wrapper-button {
+    margin: 0px auto 60px;
+    width: 85%;
+}
+
+.c-why-sections__wrapper-button--category {
+    margin: 20px auto 0;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-why-sections__wrapper-button {
+        margin: 20px auto 60px;
+        width: 35%;
+    }
+    
+    .c-why-sections__wrapper-button--category {
+        margin: 20px auto 0;
+    }
+
+}

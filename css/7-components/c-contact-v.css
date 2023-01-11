@@ -1,0 +1,76 @@
+.c-contact-v {
+    width: 100%;
+    background-color: var(--color-vilayd-bg-secundary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.c-contact-v__wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    width: 89%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-contact-v__wrapper {
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+}
+
+.c-contact-v__time {
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-contact-v__time {
+        margin-bottom: 0;
+    }
+
+}
+
+.c-contact-v__time-text {
+    color: var(--color-vilayd-neutral-00);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-contact-v__phone {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-vilayd-neutral-00);
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-contact-v__phone {
+        width: 25%;
+        justify-content: flex-end;
+    }
+
+}
+
+.c-contact-v__phone-link {
+    padding-left: 1%;
+    padding-right: 1%;
+    color: var(--color-vilayd-neutral-00);
+}
+
+.c-contact-v__phone-link:visited {
+    color: var(--color-vilayd-neutral-00);
+}
+
+.c-contact-v__phone-link:active {
+    color: var(--color-vilayd-neutral-00);
+}

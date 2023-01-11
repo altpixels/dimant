@@ -1,0 +1,126 @@
+.c-caleffi-home {
+    background-color: #00763D;
+}
+
+.c-caleffi-home__wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-caleffi-home__wrapper {
+        flex-direction: row;
+    }
+
+}
+
+.c-caleffi-home__col-left {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: space-around;
+    margin: 40px auto 10px;
+    width: 90%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-caleffi-home__col-left {
+        margin: 80px auto 60px;
+        width: 49%;
+    }
+
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .c-caleffi-home__col-left {
+        margin: 40px auto 60px;
+    }
+
+}
+
+.c-caleffi-home__col-left-wrapper--long-margin {
+    margin-top: 150px;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-caleffi-home__col-left-wrapper--long-margin {
+        margin-top: auto;
+    }
+
+}
+
+.c-caleffi-home__logo-wrapper {
+    margin-bottom: 30px;
+}
+
+.c-caleffi-home__col-right {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    align-content: space-between;
+    margin: 10px auto 60px;
+    width: 90%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-caleffi-home__col-right {
+        margin: 80px auto 60px;
+        width: 49%;
+    }
+
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .c-caleffi-home__col-right {
+        margin: 40px auto 60px;
+    }
+
+}
+
+.c-caleffi-home__col-right-wrapper {
+    width: 100%;
+}
+
+.c-caleffi-home__image-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-caleffi-home__image-wrapper {
+        justify-content: flex-end;
+    }
+
+}
+
+.c-caleffi-home__image {
+    float: none;
+    margin: auto;
+    width: 100%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-caleffi-home__image {
+        float: right;
+        margin: auto 0 auto auto;
+        width: 90%;
+    }
+
+}
+
+.c-caleffi-home__link-wrapper {
+    text-align: right;
+}

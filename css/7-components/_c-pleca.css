@@ -1,0 +1,19 @@
+.c-pleca__wrapper {
+    border-top: #9F3122 solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90%;
+}
+
+/* @media only screen and (min-width: 720px) {
+
+    .c-pleca__wrapper {
+        width: auto;
+    }
+
+} */
+
+.c-pleca__image {
+    margin-top: -16px;;
+}

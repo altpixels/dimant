@@ -1,0 +1,68 @@
+.c-form {
+    width: 90%;
+    background-color: #E2231A;
+    border-radius: 20px;
+    box-shadow: 1px 2px 4px #5C666F;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-form {
+        width: 40%;
+    }
+
+}
+
+.c-form__wrapper {
+    width: 84.3%;
+    margin: 20px auto 10px;
+    text-align: center;
+}
+
+.c-form__title {
+    margin-bottom: 5px;
+}
+
+.c-form__text {
+    margin-bottom: 10px;
+}
+
+.c-form__container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.c-form__input {
+    padding: 3px 1.5%;
+    margin: 5px auto;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.c-form__input--secundary {
+    margin-right: 0;
+    margin-left: 0;
+    width: 49%;
+}
+
+.c-form__select {
+    /* padding: 3px 1.5%; */
+    margin: 5px auto 5px 0;
+    border: none;
+    border-radius: 4px;
+    width: 49%;
+}
+
+.c-form__select:focus {
+    background-color: #ffffff;
+}
+
+.c-form__textarea {
+    padding: 3px 1.5%;
+    margin: 5px auto;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+}

@@ -1,0 +1,84 @@
+.c-caleffi-top {
+    margin: 150px auto 0px;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-caleffi-top {
+        margin: 40px auto 60px;
+    }
+
+}
+
+.c-caleffi-top__title-wrapper {
+    margin: auto;
+    text-align: center;
+    width: 90%
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-caleffi-top__title-wrapper {
+        width: 100%
+    }
+
+}
+
+.c-caleffi-top__content-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto 60px;
+    width: 90%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-caleffi-top__content-wrapper {
+        flex-flow: row nowrap;
+    }
+
+}
+
+.c-caleffi-top__image-wrapper {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-caleffi-top__image-wrapper {
+        width: 41%;
+    }
+
+}
+
+.c-caleffi-top__text-wrapper {
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-caleffi-top__text-wrapper {
+        width: 47%;
+    }
+
+}
+
+.c-caleffi-top__product-name-wrapper {
+    margin-bottom: 10px;
+}
+
+.c-caleffi-top__code-wrapper {
+    margin-bottom: 10px;
+}
+
+.c-caleffi-top__description-wrapper {
+    margin-bottom: 10px;
+}
+
+.c-caleffi-top__button-wrapper {
+    align-self: flex-start;
+    width: 50%;
+}

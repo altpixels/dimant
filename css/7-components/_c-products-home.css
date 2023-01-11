@@ -1,0 +1,145 @@
+.c-products-home__wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-products-home__wrapper {
+        flex-direction: row;
+    }
+    
+}
+
+
+.c-products-home__col-left {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: space-around;
+    margin: 40px auto 30px;
+    width: 90%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-products-home__col-left {
+        margin: 40px auto 10px;
+        width: 31%;
+    }
+    
+}
+
+.c-products-home__title {
+    
+    text-align: center;
+
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-products-home__title {
+        text-align: left;
+    }
+    
+}
+
+
+.c-products-home__col-right {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    margin: 10px auto 50px;
+    width: 90%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-products-home__col-right {
+        flex-flow: row wrap;
+        margin: 40px auto 30px;
+        width: 66%;
+    }
+    
+}
+
+.c-products-home__image-main-product-wrapper {
+    width: 100%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-products-home__image-main-product-wrapper {
+        width: 48%;
+    }
+    
+}
+
+.c-products-home__image-main-product {
+    max-width: 100%;
+}
+
+.c-products-home__info-main-product-wrapper {
+    width: 100%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-products-home__info-main-product-wrapper {
+        width: 48%;
+    }
+    
+}
+
+.c-products-home__main-product-label-wrapper {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-products-home__main-product-label-wrapper {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+.c-products-home__main-product-name-wrapper {
+    margin-bottom: 20px;
+}
+
+.c-products-home__main-product-description-wrapper {
+    margin-bottom: 20px;
+}
+
+
+.c-products-home__meli-button-wrapper {
+    margin: auto auto 10px 0;
+    width: 60%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-products-home__meli-button-wrapper {
+        width: 50%;
+    }
+    
+}
+
+.c-products-home__item-button-wrapper{
+    width: 60%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-products-home__item-button-wrapper{
+        width: 50%;
+    }
+    
+}

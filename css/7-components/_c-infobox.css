@@ -1,0 +1,72 @@
+.c-info-box {
+    margin-top: 60px;
+}
+
+.c-info-box__wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-info-box__wrapper {
+        flex-flow: row nowrap;
+    }
+
+}
+
+.c-info-box__single {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-info-box__single {
+        width: 50%;
+    }
+
+}
+
+.c-info-box__single--prod {
+    background-image: url(../../imagenes/productos-calefaccion-400x315.jpg);
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-info-box__single--prod {
+        background-image: url(../../imagenes/productos-calefaccion-683x320.jpg);
+    }
+
+}
+
+.c-info-box__single--proj {
+    background-image: url(../../imagenes/instalacion-calefaccion-400x315.jpg);
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-info-box__single--proj {
+        background-image: url(../../imagenes/instalaciones-calefaccion-683x320.jpg);
+    }
+
+}
+
+.c-info-box__single-wrapper {
+    margin: 20px auto;
+    width: 90%;
+}
+
+.c-info-box__text-wrapper {
+    margin: 0 auto 20px;
+}
+
+.c-info-box__wrapper-button {
+    margin: 15px auto 30px;
+    margin-left: 0;
+    width: 45%;
+}

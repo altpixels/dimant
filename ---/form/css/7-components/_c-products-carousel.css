@@ -1,0 +1,43 @@
+.c-products-carousel__wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 60px;
+}
+
+.c-products-carousel__items-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.c-products-carousel__item {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.c-products-carousel__item--hiden {
+    display: none;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-products-carousel__item--hiden {
+        display: flex;
+    }
+
+}
+
+.c-products-carousel__item-image-wrapper {
+    margin-bottom: 10px;
+}
+
+.c-products-carousel__item-name-wrapper {
+    margin-bottom: 5px;
+}

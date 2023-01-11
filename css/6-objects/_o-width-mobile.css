@@ -1,0 +1,12 @@
+.o-width-mobile {
+    width: 90%;
+    margin: auto;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .o-width-mobile {
+        width: auto;
+    }
+
+}

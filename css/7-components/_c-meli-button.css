@@ -1,0 +1,48 @@
+.c-meli-button {
+    display: flex;
+    padding: 0.4em 0.6em;
+    margin: 5px auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3483FA;
+    border-radius: 15px;
+    border: none;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-meli-button {
+        padding: 0.5em 0.75em;
+    } 
+
+}
+
+.c-meli-button--detail {
+    width: 77%;
+}
+
+.c-meli-button__image {
+    width: 23%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-meli-button__image {
+        width: 27.5%;
+    } 
+
+}
+
+.c-meli-button--product-detail {
+    padding: 0.5em 1em;
+    border-radius: 25px;
+    justify-content: space-around;
+}
+
+.c-meli-button__image--product-detail {
+    width: 75%;
+}

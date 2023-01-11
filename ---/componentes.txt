@@ -1,0 +1,16 @@
+c-contact
+c-header
+c-hero
+c-why
+c-caleffi
+c-products-home
+c-products-carrusel
+c-instalations
+c-testimonial
+c-brand
+c-footer
+
+bg-box: debe estar posicionado de manera absoluta dentro del componente, dar z-index: 1. El bloque de componente debe tener position relative para que bg-box se posicione de manera relativa a este componente, también debe añadirse position relative y un z-index superior en el container del componente, dar z-index 2 al container.
+
+RESPONSIVE
+target ÷ context = result

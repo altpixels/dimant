@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway:ital,wght@0,300;0,400;0,600;0,700;1,400;1,500&display=swap');
+
+.o-font-h1 {
+
+    font-family: inherit;
+    font-size: 3.4rem;
+    line-height: 4.5rem;
+
+}
+
+@media only screen and (min-width: 720px) {
+
+    .o-font-h1 {
+        
+        font-size: 4.6rem;
+        line-height: 5.8rem;
+
+    }
+    
+}
+
+
+.o-font-h2 {
+
+    font-family: inherit;
+    font-size: 2.8rem;
+    line-height: 4.6rem;
+
+}
+
+@media only screen and (min-width: 720px) {
+
+    .o-font-h2 {
+        
+        font-size: 4.2rem;
+        line-height: 5.6rem;
+        
+    }
+    
+}
+
+
+.o-font-h3 {
+
+    font-family: inherit;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+
+}
+
+@media only screen and (min-width: 720px) {
+
+    .o-font-h3 {
+        
+        font-size: 3rem;
+        line-height: 3rem;
+        
+    }
+    
+}
+
+
+.o-font-h4 {
+
+    font-family: inherit;
+    font-size: 1.8rem;
+    line-height: 2.0rem;
+
+}
+
+@media only screen and (min-width: 720px) {
+
+    .o-font-h4 {
+        
+        font-size: 2.4rem;
+        line-height: 3rem;
+        
+    }
+    
+}
+
+
+.o-font-h5 {
+
+    font-family: inherit;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+
+}
+
+@media only screen and (min-width: 720px) {
+
+    .o-font-h5 {
+        
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+        
+    }
+    
+}
+
+
+.o-font-menu {
+
+    font-family: inherit;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 700;
+
+}
+
+
+.o-font-boton {
+
+    font-family: inherit;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    font-weight: 700;
+
+}
+
+@media only screen and (min-width: 720px) {
+
+    .o-font-boton {
+        
+        font-size: 2.4rem;
+        line-height: 2.8rem;
+        
+    }
+    
+}
+
+
+.o-font-enlace {
+
+    font-family: inherit;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    font-weight: 400;
+
+}
+
+@media only screen and (min-width: 720px) {
+
+    .o-font-enlace {
+        
+        font-size: 1.8rem;
+        line-height: 3.5rem;
+        
+    }
+    
+}
+
+
+.o-font-componente {
+
+    font-family: inherit;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 500;
+
+}
+
+@media only screen and (min-width: 720px) {
+
+    .o-font-componente {
+        
+        font-size: 2rem;
+        line-height: 2.5rem;
+        
+    }
+    
+}
+
+
+.o-font-footer-item {
+
+    font-family: inherit;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    font-weight: 400;
+
+}
+
+@media only screen and (min-width: 720px) {
+
+    .o-font-footer-item {
+        
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+        
+    }
+    
+}
+
+
+.o-font-hero {
+
+    font-family: inherit;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    font-weight: 300;
+
+}
+
+@media only screen and (min-width: 720px) {
+
+    .o-font-hero {
+        
+        font-size: 2.4rem;
+        line-height: 3.5rem;
+        
+    }
+    
+}
+
+
+.o-font-principal {
+
+    font-family: inherit;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    font-weight: 400;
+
+}
+
+@media only screen and (min-width: 720px) {
+
+    .o-font-principal {
+        
+        font-size: 1.8rem;
+        line-height: 3.5rem;
+        
+    }
+    
+}
+
+
+.o-font-secundario {
+
+    font-family: inherit;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+
+}
+
+@media only screen and (min-width: 720px) {
+
+    .o-font-secundario {
+        
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+        
+    }
+    
+}
+
+
+.o-font-testimonial {
+
+    font-family: inherit;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+@media only screen and (min-width: 720px) {
+
+    .o-font-testimonial {
+        
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+        
+    }
+    
+}
+
+
+.o-font-contacto {
+
+    font-family: inherit;
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+
+}
+
+@media only screen and (min-width: 720px) {
+
+    .o-font-contacto {
+        
+        font-size: 1.3rem;
+        line-height: 2.8rem;
+        
+    }
+    
+}
+
+.o-font-color-primary-00 {
+    color: #E2231A;
+}
+
+.o-font-color-primary-10 {
+    color: #9F3122;
+}
+
+.o-font-color-primary-20 {
+    color: #682F24;
+}
+
+.o-font-color-secondary-00 {
+    color: #C3C5C8;
+}
+
+.o-font-color-secondary-10 {
+    color: #5C666F;
+}
+
+.o-font-color-secondary-20 {
+    color: #232121;
+}
+
+.o-font-color-blanco {
+    color: #FFFFFF;
+}

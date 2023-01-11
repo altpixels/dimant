@@ -1,0 +1,48 @@
+html {
+
+    font-size: 62.5%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+
+}
+
+ul {
+
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+img {
+
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+    padding: 0px;
+    margin: opx;
+
+}
+
+p {
+
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+a {
+
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+    /* transition: all 0.4s ease-in-out; */
+
+}

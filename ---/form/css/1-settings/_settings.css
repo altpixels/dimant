@@ -1,0 +1,29 @@
+.color-primary-00 {
+    color: #E2231A;
+}
+
+.color-primary-10 {
+    color: #9F3122;
+}
+
+.color-primary-20 {
+    color: #682F24;
+}
+
+.color-secundario-00 {
+    color: #C3C5C8;
+}
+
+.color-secundario-10 {
+    color: #5C666F;
+}
+
+.color-secundario-20 {
+    color: #232121;
+}
+
+.color-blanco {
+    color: #FFFFFF;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway:ital,wght@0,300;0,400;0,600;0,700;1,400;1,500&display=swap');

@@ -1,0 +1,20 @@
+.c-main-button {
+    padding: 7px 5%;
+    background-color: #E2231A;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    width: 100%;
+}
+
+.c-main-button--footer-form {
+    width: auto;
+}
+
+.c-main-button--caleffi {
+    background-color: #00763D;
+}
+
+.c-main-button--white {
+    background-color: #FFFFFF;
+}

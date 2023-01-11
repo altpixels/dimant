@@ -1,0 +1,129 @@
+.c-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-contact {
+        flex-flow: row wrap;
+        justify-content: space-between;
+        height: 40px;
+    }
+
+}
+
+.c-contact__wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c-contact__social-icons {
+    display: none;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-contact__social-icons {
+        display: block;
+        width: 15.35%;
+    }
+
+}
+
+.c-contact__social-icons-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 5.4%; */
+}
+
+.c-contact__social-icons-image {
+    width: 100%;
+    max-width: 100%;
+}
+
+.c-contact__data {
+    width: 100%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-contact__data {
+        width: 70%;
+    }
+
+}
+
+.c-contact__data-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-contact__data-container {
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+
+}
+
+.c-contact__data-item {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-contact__data-item {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+.c-contact__data-item--first {
+    width: 100%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-contact__data-item--first {
+        width: 40.5%;
+    }
+
+    .c-contact__data-item--first::after {
+        content: "|";
+    }
+    
+}
+
+.c-contact__data-item--last {
+    /* width: 100%; */
+    display: none;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-contact__data-item--last {
+        display: flex;
+        width: 25.4%;
+    }
+    
+    .c-contact__data-item--last::before {
+        content: "|";
+    }
+}

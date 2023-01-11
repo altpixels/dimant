@@ -1,0 +1,258 @@
+.c-footer {
+    background-color: #232121;
+    color: #C3C5C8;
+}
+
+.c-footer__wrapper {
+    display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-footer__wrapper {
+        flex-flow: row wrap;
+    }
+}
+
+.c-footer__col-left {
+    margin: 40px auto 15px;
+    width: 90%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-footer__col-left {
+        margin: 40px 0 60px;
+        width: 46%;
+    }
+}
+
+.c-footer__logo-wrapper {
+    margin-bottom: 30px;
+}
+
+.c-footer__form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px auto 25px;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-footer__form {
+        flex-flow: row nowrap;
+    }
+
+}
+
+.c-footer__input {
+    margin-bottom: 10px;
+    padding-left: 2.5%;
+    width: 97.5%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-footer__input {
+        margin-bottom: auto;
+        width: 66.5%;
+    }
+
+}
+
+.c-footer__input-submit {
+    width: 36%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-footer__input-submit {
+        width: 27%;
+    }
+
+}
+
+
+.c-footer__col-right {
+    margin: 15px auto 60px;
+    width: 90%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-footer__col-right {
+        margin: 40px 0 60px;
+        width: 49%;
+    }
+
+}
+
+.c-footer__col-right-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.c-footer__links {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-footer__links {
+        flex-flow: row nowrap;
+    }   
+
+}
+
+.c-footer__contactanos-wrapper {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-footer__contactanos-wrapper {
+        width: 43%;
+        margin-bottom: auto;
+    }  
+
+}
+
+.c-footer__contactanos-title-wrapper {
+    margin-bottom: 20px;
+}
+
+.c-footer__contactanos-item {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px auto;
+    width: 100%;
+}
+
+.c-footer__contactanos-item-link {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.c-footer__contactanos-item-image {
+    margin-right: 5%;
+}
+
+.c-footer__contactanos-item-link--first {
+    justify-content: space-between;
+    width: 41%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-footer__contactanos-item-link--first {
+        width: 56%;
+    }
+
+}
+
+.c-footer__visita-wrapper {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-footer__visita-wrapper {
+        margin-bottom: auto;
+        width: 39%;
+    }
+
+}
+
+.c-footer__visita-title-wrapper {
+    margin-bottom: 20px;
+}
+
+.c-footer__visita-item {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px auto;
+    width: 100%;
+}
+
+.c-footer__visita-item-link {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.c-footer__visita-item-image {
+    margin-right: 5%;
+}
+
+.c-footer__siguenos-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-footer__siguenos-wrapper {
+        justify-content: space-between;
+        width: 49%;
+    }
+
+}
+
+.c-footer__siguenos-title-wrapper {
+    width: 31%;
+}
+
+.c-footer__siguenos-title {
+    margin: 0;
+}
+
+.c-footer__siguenos-items-wrapper {
+    width: 45%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-footer__siguenos-items-wrapper {
+        width: 55%;
+    }
+    
+
+}
+
+.c-footer__siguenos-items-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c-footer__siguenos-item {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}

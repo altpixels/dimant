@@ -1,0 +1,48 @@
+/* SETTINGS */
+@import "1-settings/_settings.css";
+
+/* TOOLS */
+@import "2-tools/_functions.css";
+@import "2-tools/_mixxings.css";
+
+/* GENERIC */
+@import "3-generic/_generic.css";
+
+/* TAGS */
+@import "4-tags/_tags.css";
+
+/* KEYFRAMES */
+@import "5-keyframes/_keyframes-home.css";
+@import "5-keyframes/_keyframes-sistemas.css";
+
+/* OBJECTS */
+@import "6-objects/_o-bg-color.css";
+@import "6-objects/_o-main.css";
+@import "6-objects/_o-container.css";
+@import "6-objects/_o-fonts.css";
+
+/* COMPONENTS */
+@import "7-components/_c-contact.css";
+@import "7-components/_c-header.css";
+@import "7-components/_c-hero-home.css";
+@import "7-components/_c-why-home.css";
+@import "7-components/_c-caleffi-home.css";
+@import "7-components/_c-products-home.css";
+@import "7-components/_c-products-carousel.css";
+@import "7-components/_c-instalations.css";
+@import "7-components/_c-testimonial.css";
+@import "7-components/_c-brands.css";
+@import "7-components/_c-footer.css";
+@import "7-components/_c-main-button.css";
+@import "7-components/_c-pleca.css";
+@import "7-components/_c-hero-sections.css";
+@import "7-components/_c-systems.css";
+@import "7-components/_c-why-sections.css";
+@import "7-components/_c-projects.css";
+@import "7-components/_c-form.css";
+@import "7-components/_c-paragraphs.css";
+@import "7-components/_c-info-box.css";
+
+/* UTILITIES */
+@import "8-utilities/_utilities.css";
+
